@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/png" href="logo.png" />
+<link rel="apple-touch-icon" href="logo.png" />
 <title>小松島市の子ども体操教室｜小松島フレッシュ体操教室｜5歳から・無料体験</title>
 <meta name="description" content="徳島県小松島市の体操教室。大きなトランポリンを使って、前まわり・側転などの基本技から、バク転・バク宙にも安心して挑戦できます。小松島市立体育館 武道館で木曜・月3回開催。5歳から（バク転クラスは中学生以上もOK）。初心者・運動が苦手でも大歓迎、無料体験受付中！" />
 <meta name="keywords" content="小松島 体操教室,小松島市 体操,アクロバット,バク転,バク宙,トランポリン,幼稚園 体操,小学生 体操,無料体験,徳島 体操教室,立江" />
@@ -87,8 +89,9 @@
   header{position:sticky;top:0;z-index:50;background:rgba(255,253,248,.85);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid rgba(38,49,58,.06)}
   .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
   .brand{display:flex;align-items:center;gap:10px;font-family:"M PLUS Rounded 1c";font-weight:800;font-size:1.1rem}
-  .logo{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;color:#fff;font-size:1.2rem;
-    background:linear-gradient(135deg,var(--green),var(--pink) 55%,var(--orange));box-shadow:var(--ring)}
+  .logo{width:42px;height:42px;border-radius:0;object-fit:contain;display:block;flex:0 0 auto;background:none;box-shadow:none}
+  .hero-logo{width:clamp(92px,17vw,148px);height:auto;display:block;margin:0 0 16px}
+  @media(max-width:760px){.hero-logo{margin-left:auto;margin-right:auto}}
   .nav-links{display:flex;gap:20px;align-items:center}
   .nav-links a{font-weight:500;color:var(--muted);font-size:.95rem}
   .nav-links a:hover{color:var(--ink)}
@@ -224,7 +227,7 @@
 
 <header>
   <div class="wrap nav">
-    <div class="brand"><span class="logo">🤸</span>小松島フレッシュ体操教室</div>
+    <div class="brand"><img class="logo" src="logo.png" alt="小松島フレッシュ体操教室のロゴ" width="42" height="42" />小松島フレッシュ体操教室</div>
     <nav class="nav-links">
       <a href="#about">教室について</a>
       <a href="#class">クラス</a>
@@ -242,6 +245,7 @@
   <span class="hdot hd1"></span><span class="hdot hd2"></span><span class="hdot hd3"></span><span class="hdot hd4"></span>
   <div class="wrap hero-grid">
     <div class="hero-copy">
+      <img class="hero-logo" src="logo.png" alt="小松島フレッシュ体操教室のロゴ" width="148" height="148" />
       <span class="ribbon">⭐ 小松島市｜5歳から始める体操教室</span>
       <h1>小松島市の<br>子ども体操教室</h1>
       <p class="hero-catch">ジャンプして、<span class="brush">「できた！」</span>がふえる。</p>
@@ -440,7 +444,7 @@
   <div class="wrap grid-f">
     <div>
       <div class="brand" style="display:flex;align-items:center;gap:10px;font-family:'M PLUS Rounded 1c';font-weight:800;font-size:1.15rem">
-        <span class="logo">🤸</span>小松島フレッシュ体操教室
+        <img class="logo" src="logo.png" alt="小松島フレッシュ体操教室のロゴ" width="42" height="42" />小松島フレッシュ体操教室
       </div>
       <p class="farea">徳島県小松島市の体操教室。小松島市立体育館 武道館（立江町赤石74-2）で木曜・月3回開催。5歳から、バク転集中クラスは中学生以上の方もご参加いただけます。</p>
     </div>
